@@ -7,6 +7,8 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import Login from './Login'
+
 
 function Modal01() {
   return (
@@ -15,13 +17,14 @@ function Modal01() {
         <Button  >Open</Button>
       </DialogTrigger>
       <DialogContent>
-        <DialogHeader>
+        {/* <DialogHeader>
           <DialogTitle>Are you absolutely sure?</DialogTitle>
           <DialogDescription>
             This action cannot be undone. This will permanently delete your
             account and remove your data from our servers.
           </DialogDescription>
-        </DialogHeader>
+        </DialogHeader> */}
+        <Login />
       </DialogContent>
     </Dialog>
   );
